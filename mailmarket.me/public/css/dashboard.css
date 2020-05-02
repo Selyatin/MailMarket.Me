@@ -1,0 +1,252 @@
+/* Prefixes */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Spartan&display=swap');
+/* Fonts End */
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: "Spartan", sans-serif;
+}
+h1,h2,h3,h4,h5,p,a {
+    color: #17171a;
+    
+}
+a:hover {
+    color: #17171a;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+@keyframes ldio-3kphjdhe4ws {
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(180deg) }
+    100% { transform: rotate(360deg) }
+  }
+  .ldio-3kphjdhe4ws div {
+    position: absolute;
+    animation: ldio-3kphjdhe4ws 1s linear infinite;
+    width: 162.96px;
+    height: 162.96px;
+    top: 15.52px;
+    left: 15.52px;
+    border-radius: 50%;
+    box-shadow: 0 6.208px 0 0 #17171a;
+    transform-origin: 81.48px 84.584px;
+  }
+  .loadingio-spinner-eclipse-h5c55szghjc {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+  }
+  .ldio-3kphjdhe4ws {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+  }
+  .ldio-3kphjdhe4ws div { box-sizing: content-box; }
+
+/* Prefixes End */
+
+.loading {
+    opacity: 1;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    transition: all 1s ease;
+}
+.decisor-loading .loadingio-spinner-eclipse-h5c55szghjc {
+    transition: all 0.5s ease;
+}
+.decisor-loading.hide .loadingio-spinner-eclipse-h5c55szghjc{
+    opacity: 0;
+}
+.loading .loadingio-spinner-eclipse-h5c55szghjc {
+    margin: auto;
+}
+
+.container-fluid {
+    margin: 2rem;
+    padding: 0;
+    background-color: #fff;
+    position: relative;
+}
+
+.decisor {
+    opacity: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+.decisor.active {
+    opacity: 1;
+    z-index: 999;
+}
+
+.decisor-items-container {
+    background-color: #fff;
+    width: 50rem;
+    height: 50rem;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+.decisor-items-container .hide{
+    opacity: 0;
+}
+.decisor-items-container .row {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.decisor-items-container .row:nth-child(2){
+    margin-top: 10rem;
+}
+.decisor-items-container h2 {
+    margin-top: 5rem;
+}
+
+.decisor-items-container .col-md-6 {
+    margin-top: 10rem;
+}
+
+.decisor-button {
+    background-color: transparent;
+    border: 2px solid #17171a;
+    color: #17171a;
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+    width: 100%;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+.decisor-button:hover {
+    background-color: #17171a;
+    color: #fff;
+}
+.decisor-button.black {
+    background-color: #17171a;
+    color: #fff;
+}
+.row {
+    margin-top: 24%;
+}
+
+.product-details {
+    background-color: #fff;
+    padding: 2rem 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.product-details button {
+    background-color: transparent;
+    border: 2px solid #17171a;
+    color: #17171a;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+.product-details button:hover {
+    background-color: #17171a;
+    color: #fff;
+}
+.product-details button.black{
+    background-color: #17171a;
+    color: #fff;
+}
+
+.product-details button.black:hover {
+    background-color: #ffaf1a;
+    border-color: #ffaf1a;
+}
+
+.container-fluid .row {
+    margin: 0;
+    height: 100%;
+}
+
+.container-fluid .row .statistics-block {
+    margin: 2rem 1rem;
+    padding: .5rem 0;
+    -webkit-box-shadow: 0px 0px 29px -7px rgba(23,23,26,.2);
+    -moz-box-shadow: 0px 0px 29px -7px rgba(23,23,26,.2);
+    box-shadow: 0px 0px 29px -7px rgba(23,23,26,.2);
+}
+
+.container-fluid .row .input-block{
+    position: relative;
+}
+.container-fluid .row .input-block textarea {
+    resize: none;
+    min-height: 40rem;
+}
+.container-fluid .row .input-block textarea.custom-list {
+    min-height: 45.438rem;
+}
+.container-fluid .row .input-block input, .container-fluid .row .input-block textarea {
+    padding: 0.5rem;
+    border: 2px solid #17171a;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1rem auto;
+    transition: all 0.3s ease;
+}
+.container-fluid .row .input-block input:focus, .container-fluid .row .input-block textarea:focus {
+    border-color: #ffaf1a;
+    outline: none;
+}
+.container-fluid .row .input-block button {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #17171a;
+    font-size: 2rem;
+    padding: 1rem 46.5%;
+    transition: all 0.3s ease;
+}
+.container-fluid .row .input-block button:hover {
+    background-color: #17171a;
+    color: #fff;
+}
+@media(max-width: 991px){
+    .container-fluid{
+        margin: 0;
+    }
+    .container-fluid .row .input-block button {
+        padding: 1rem 40%;
+    }
+    .container-fluid .row .statistics-block:first-child,.container-fluid .row .statistics-block:last-child {
+        border-right: none;
+        border-left: none;
+    }
+    
+}
